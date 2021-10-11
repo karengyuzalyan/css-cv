@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto 20px;
+}
+
+.info p {
+    color: gray;
+    font-style: italic;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.info {
+    margin-bottom: 15px;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: gray;
+}
+
+.social a:visited {
+    color: blueviolet;
+}
+
+.card {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgb(214, 248, 248);
+}
+
+.card ol, .card ul {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color:gray;
+}
+
+.contacts {
+    position: relative;
+}
+
+.contacts  h2 {
+    text-align: center;
+}
+
+.contacts label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contacts .input, .contacts .textarea {
+    font-family: inherit;
+    box-sizing: border-box;
+    padding: 5px;
+    border: none;
+    border-bottom: gray solid 1px;
+    background-color: transparent;
+}
+
+.contacts input:focus-visible {
+    outline: none;
+}
+
+.form-inputs {
+    width: 50%;
+    margin-top: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.submit {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.submit:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.btn-wrapper {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
